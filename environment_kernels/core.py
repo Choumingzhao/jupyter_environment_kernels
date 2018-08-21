@@ -11,7 +11,7 @@ from .envs_conda import get_conda_env_data
 from .envs_virtualenv import get_virtualenv_env_data
 from .utils import FileNotFoundError, HAVE_CONDA
 
-ENV_SUPPLYER = [get_conda_env_data, get_virtualenv_env_data]
+ENV_SUPPLYER = [get_virtualenv_env_data]
 
 __all__ = ['EnvironmentKernelSpecManager']
 
